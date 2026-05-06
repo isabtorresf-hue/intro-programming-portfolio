@@ -1,17 +1,15 @@
-# Data Types and Variables
+1. Concept
 
-## 1. Concept in My Own Words
-Variables are used to store data in a program. Each variable has a type, such as integer, string, or boolean. These types define what kind of data can be stored. Variables help programs work with information.
+Data types in C# define what type of value a variable can store. Variables are used to store data that can be reused in a program. Each data type has a specific purpose depending on the type of information.
 
-## 2. Key C# Syntax
-int age = 22;
-string name = "Isabella";
+For example, int is used for whole numbers, double is used for decimal numbers, string is used for text, and bool is used for true or false values. Variables help store and manage information during program execution.
 
-## 3. Eureka Moment
-At first, I did not understand variables, but now I see they store data.
+The program reads variables from top to bottom and uses their stored values when needed. Choosing the correct data type is important because it affects how the program works.
 
-## 4. Common Beginner Mistake
-Using the wrong data type.
+2. Key C# Syntax
 
-## 5. Research References
-https://w3schools.com
+```csharp
+int age = 24;
+double price = 10.5;
+string name = "Isa";
+bool isStudent = true;
