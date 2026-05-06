@@ -13,6 +13,6 @@ int diff = a - b;
 bool compare = a > b;
 bool logic = (a > b) && (b > 0);
 
-3. Learning Moment
+4. Learning Moment
 
 At first I was confused between && and || because I thought they worked the same way. In an if statement exercise, my result was wrong because I used || instead of &&. After testing simple examples, I understood that && requires both conditions to be true and || only needs one. That practice helped me understand it clearly.
